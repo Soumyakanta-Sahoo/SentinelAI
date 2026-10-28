@@ -1,0 +1,28 @@
+name: Bug report
+description: Report a reproducible problem in SentinelAI
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Please do not attach private documents or sensitive extracted text.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include the command used and the observed result.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: SentinelAI and Python versions
+      placeholder: "SentinelAI 0.1.0, Python 3.12"
+    validations:
+      required: true

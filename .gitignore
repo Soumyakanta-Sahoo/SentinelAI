@@ -20,8 +20,12 @@ venv/
 # Testing
 
 .pytest_cache/
+.pytest-tmp-codex/
 .coverage
 htmlcov/
+build/
+dist/
+*.egg-info/
 
 # Jupyter
 
