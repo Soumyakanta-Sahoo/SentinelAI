@@ -1,0 +1,33 @@
+# Python
+
+**pycache**/
+*.py[cod]
+
+# Virtual environments
+
+.venv/
+venv/
+
+# Secrets
+
+.env
+.env.*
+
+# IDE settings
+
+.idea/
+
+# Testing
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# Local data and generated files
+
+data/
+artifacts/
